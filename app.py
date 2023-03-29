@@ -103,7 +103,7 @@ def index():
 
         except Exception as e:
             print('The Exception message is: ', e)
-            return 'something is wrong. Please search something which is available in flipkart'
+            return 'something is wrong. Please search something which is available in flipkart*****'
 
     else:
         return render_template('index.html')
